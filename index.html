@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Megha | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio website for a web developer and designer."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <a href="#home" class="brand">Megha</a>
+
+        <div class="nav-links" id="main-nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="nav-controls">
+          <button class="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">
+            <span class="toggle-track">
+              <span class="toggle-thumb">
+                <span class="toggle-icon sun">☀</span>
+                <span class="toggle-icon moon">☾</span>
+              </span>
+            </span>
+          </button>
+
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero container">
+        <div class="hero-copy">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1>Megha <span>Web Developer</span></h1>
+          <p class="subtitle">
+            I design and build clean, modern websites that look great and work
+            smoothly on every device.
+          </p>
+          <div class="cta-row">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            <a href="resume.pdf" class="btn btn-download" download>Download Resume</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="profile-badge">Available for work</div>
+          <div class="avatar">M</div>
+          <ul>
+            <li>Frontend development</li>
+            <li>React development</li>
+            <li>Modern front-end</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="about" class="container section-spacing">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Turning ideas into polished digital experiences.</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>What I do</h3>
+            <p>
+              I build websites and web interfaces with a strong focus on usability,
+              accessibility, and performance.
+            </p>
+          </div>
+          <div class="about-card">
+            <h3>Tools</h3>
+            <p>HTML, CSS, JavaScript, Git, Figma, VS Code, and responsive design.</p>
+          </div>
+          <div class="about-card">
+            <h3>Approach</h3>
+            <p>
+              I turn design concepts into practical and visually engaging user
+              experiences that feel effortless.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="container section-spacing">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>Building interfaces with intention.</h2>
+        </div>
+        <div class="skill-grid">
+          <div class="skill-card">
+            <h3>Frontend</h3>
+            <div class="tag-list">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>Responsive Design</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>Design</h3>
+            <div class="tag-list">
+              <span>Figma</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>Workflow</h3>
+            <div class="tag-list">
+              <span>Git</span>
+              <span>VS Code</span>
+              <span>Performance</span>
+              <span>Accessibility</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="container section-spacing">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Focused on thoughtful digital work.</h2>
+        </div>
+
+        <div class="experience-grid">
+          <div class="experience-item">
+            <span class="experience-year">2026</span>
+            <div>
+              <h3>Frontend Developer</h3>
+              <p>Created responsive cloud-based applications with modern frameworks.</p>
+            </div>
+          </div>
+          <div class="experience-item">
+            <span class="experience-year">2026</span>
+            <div>
+              <h3>Portfolio Designer</h3>
+              <p>Designed and developed a comprehensive portfolio to showcase creative work.</p>
+            </div>
+          </div>
+          <div class="experience-item">
+            <span class="experience-year">2026</span>
+            <div>
+              <h3>Creative Technologist</h3>
+              <p>working on a Document signature application</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects section-spacing">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Projects</p>
+            <h2>Selected work</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-image one"></div>
+              <div class="project-content">
+                <h3>Portfolio Website</h3>
+                <p>
+                  responsive portfolio to showcase work and skills, with a focus on clean design and user experience.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image two"></div>
+              <div class="project-content">
+                <h3>Cloud-Based Application</h3>
+                <a href="https://frontend-project-57ngb0ahq-megha2045m-labs-projects.vercel.app/" target="_blank" rel="noreferrer"><button>See the project</button></a>
+                <p>
+                  cloud-based application with a focus on performance, scalability, and user experience.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image three"></div>
+              <div class="project-content">
+                <h3>Document Signature App</h3>
+                <p>
+                  A modern, secure application for creating and managing digital signatures (In progress).
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-content">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s build something great.</h2>
+        </div>
+        <div class="footer-actions">
+          <a href="mailto:megha.cs.dev@gmail.com" class="btn btn-email">megha.cs.dev@gmail.com</a>
+          <a href=" https://www.linkedin.com/in/megha-undefined-68a181426/" target="_blank" rel="noreferrer" class="btn btn-linkedin">LinkedIn</a>
+        </div>
+      </div>
+
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
